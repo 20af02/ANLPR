@@ -73,7 +73,8 @@ def getPlateNumber(image, coordinates):
         region = cv2.bitwise_not(region)
 
         #Blur Char region
-        region = cv2.medianBlur(region, 5)
+        if not region.empty():
+            region = cv2.medianBlur(region, 5)
 
         #Extract text
         try:
