@@ -27,6 +27,9 @@ share/python-wheels/
 *.egg
 MANIFEST
 .vscode/
+preTrained/
+saved_model.pb
+*.index
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
