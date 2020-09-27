@@ -103,7 +103,10 @@ def main(_argv):
                 croppedImg = tmpIMG[int(yMin)-5:int(yMax)+5, int(xMin)-5:int(xMax)+5]
 
                 #Construct image, join it to path to save crop
-                cv2.imwrite(os.path.join(os.path.join(cropPath, 'frame_' + str(frameNumber)) + className + '_' + str(countObj) + '.png', croppedImg))
+                try:
+                    cv2.imwrite(os.path.join(os.path.join(cropPath, 'frame_' + str(frameNumber)) + className + '_' + str(countObj) + '.png', croppedImg))
+                except:
+                    pass
         else:
             pass
 
