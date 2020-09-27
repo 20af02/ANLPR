@@ -39,6 +39,7 @@ Extract the contents of the zip file to where main.py is located.
 ### Result Image(s) (TensorFlow)
 You can find the outputted image(s) showing the detections every 125 frames saved in the detections folder.
 #### Pre-trained ANLPR Model Example
+Note: the networks used in this instance had only 1,000 epochs, so they were very inaccurate.
 <p align="center"><img src="helpers/bounding_box.png" width="640"\></p>
 <p align="center"><img src="helpers/letter_box.png" width="640"\></p>
 <p align="center"><img src="helpers/license_output.png" width="640"\></p>
