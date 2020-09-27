@@ -31,13 +31,13 @@ https://developer.nvidia.com/cuda-10.1-download-archive-update2
 
 ## Downloading Pre-trained Weights
 ANLPR comes pre-trained. For easy demo purposes we will use the pre-trained weights.
-Download pre-trained ANLPR weights zip file: https://drive.google.com/open?id=
+Download pre-trained ANLPR weights zip file: https://drive.google.com/file/d/1FJC1wQ0KKbc7EgVjL0mOMRQgmaroOipK/view?usp=sharing
 
 Extract the contents of the zip file to where main.py is located.
 
 
 ### Result Image(s) (TensorFlow)
-You can find the outputted image(s) showing the detections every 150 frames saved in the detections folder.
+You can find the outputted image(s) showing the detections every 125 frames saved in the detections folder.
 #### Pre-trained ANLPR Model Example
 <p align="center"><img src="helpers/result.png" width="640"\></p>
 
