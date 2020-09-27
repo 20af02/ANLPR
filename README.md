@@ -1,6 +1,6 @@
 # ANLPR
 Artifical Nerual Netowrk License Plate Recognition
-
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
 ## Getting Started
 ### Conda (Recommended)
