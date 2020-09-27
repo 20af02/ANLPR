@@ -39,7 +39,11 @@ Extract the contents of the zip file to where main.py is located.
 ### Result Image(s) (TensorFlow)
 You can find the outputted image(s) showing the detections every 125 frames saved in the detections folder.
 #### Pre-trained ANLPR Model Example
-<p align="center"><img src="helpers/result.png" width="640"\></p>
+<p align="center"><img src="helpers/bounding_box.png" width="640"\></p>
+<p align="center"><img src="helpers/letter_box.png" width="640"\></p>
+<p align="center"><img src="helpers/console_output.png" width="640"\></p>
+<p align="center"><img src="helpers/license_output.png" width="640"\></p>
+
 
 ### Result Video
 The nerual network is run on live video, it can be exported wherever you want with minimal changes. 
