@@ -15,7 +15,10 @@ def getPlateNumber(image, coordinates):
     box = image[int(yMin)-5:int(yMax)+5, int(xMin)-5:int(xMax)+5]
 
     #greyscale
-    grey = cv2.cvtColor(box, cv2.COLOR_RGB2GRAY)
+    try:
+        grey = cv2.cvtColor(box, cv2.COLOR_RGB2GRAY)
+    except:
+        return ""
 
     #resize 3X
     grey = cv2.resize(grey, None, fx=3, fy=3, interpolation= cv2.INTER_CUBIC)
