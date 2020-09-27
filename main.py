@@ -28,7 +28,7 @@ def main(_argv):
     frameNumber = 0
 
     #Load saved model
-    savedModelLoded = tf.saved_model.load('./custom-416', tags =[tag_constants.SERVING])
+    savedModelLoded = tf.saved_model.load('./preTrained', tags =[tag_constants.SERVING])
     infer = savedModelLoded.signatures['serving_default']
 
     
