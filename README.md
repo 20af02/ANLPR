@@ -66,8 +66,6 @@ Tesseract OCR Github Repo: [tesseract-ocr/tessdoc](https://github.com/tesseract-
 All Nerual Networks were trained using Google's Open Images Dataset.
 <p align="center"><img src="helpers/graph.png"\></p>
 
-You can see a demo here: youtube.com 
-
 # Sample pipeline
 
 To get started, connect a camera to your computer, then run the `main.py` file to start image processing. You can view the predicted license plate text directly on live video feed. 
