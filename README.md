@@ -41,7 +41,6 @@ You can find the outputted image(s) showing the detections every 125 frames save
 #### Pre-trained ANLPR Model Example
 <p align="center"><img src="helpers/bounding_box.png" width="640"\></p>
 <p align="center"><img src="helpers/letter_box.png" width="640"\></p>
-<p align="center"><img src="helpers/console_output.png" width="640"\></p>
 <p align="center"><img src="helpers/license_output.png" width="640"\></p>
 
 
