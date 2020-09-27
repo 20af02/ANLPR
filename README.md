@@ -37,7 +37,7 @@ Extract the contents of the zip file to where main.py is located.
 
 
 ### Result Image(s) (TensorFlow)
-You can find the outputted image(s) showing the detections every 150 frames saved in the detections folder.
+You can find the outputted image(s) showing the detections every 125 frames saved in the detections folder.
 #### Pre-trained ANLPR Model Example
 <p align="center"><img src="helpers/result.png" width="640"\></p>
 
