@@ -52,8 +52,8 @@ Every frame the network detects a license plate, the program prints information 
 We established a set of preprocessing rules over size, aspect ratio, height, and width of bounding box regions to ensure only plate numbers were sent to Tesseract OCR.
 The preprocessing and text-extraction is all done under the <strong>getPlateNumber</strong> function, found in the file [util.py](https://github.com/20af02/ANLPR/blob/master/util.py)
 
-<strong>Note: To run tesseract OCR, appropriate bianary files must be downloaded, setup, and properly imported 
-the string pytesseract.pytesseract.tesseract_cmd must oint to a proper tesseract OCR executable</strong>
+<strong>Note: To run tesseract OCR, appropriate bianary files must be downloaded, setup, and properly imported. 
+The string 'pytesseract.pytesseract.tesseract_cmd' must point to a proper tesseract OCR executable.</strong>
 
 Tesseract OCR Github Repo: [tesseract-ocr/tessdoc](https://github.com/tesseract-ocr/tessdoc)
 
