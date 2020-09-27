@@ -22,9 +22,9 @@ pip install -r requirements_CPU.txt
 
 # TensorFlow GPU
 pip install -r requirements_GPU.txt
+```
 
-
-### Nvidia Driver (For discrete GPU, if the Conda Environment is not used and CUDA is not setup)
+### Nvidia Driver (For a discrete GPU if the Conda Environment is not used and CUDA is not setup)
 Try to use CUDA Toolkit version 10.1 because it is compatible for the version of TensorFlow used in this repository.
 https://developer.nvidia.com/cuda-10.1-download-archive-update2
 
@@ -57,7 +57,7 @@ the string pytesseract.pytesseract.tesseract_cmd must oint to a proper tesseract
 
 Tesseract OCR Github Repo: [tesseract-ocr/tessdoc](https://github.com/tesseract-ocr/tessdoc)
 
-##Developer Notes
+### Developer Notes
 All Nerual Networks were trained using Google's Open Images Dataset.
 <p align="center"><img src="helpers/graph.png"\></p>
 
