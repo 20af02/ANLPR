@@ -1,5 +1,5 @@
 # ANLPR
-Artifical Nerual Netowrk License Plate Recognition
+Artificial Neural Network License Plate Recognition
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 
